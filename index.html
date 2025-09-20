@@ -10,7 +10,25 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1>Sketchpad-Etch-A-Sketch</h1>
+        <div class="controls">
+            <div class="grid-controls">
+                <div class="input-group">
+                    <label for="grid-size">Grid Size:</label>
+                    <input type="number" id="grid-size" min="1" max="100" value="16">
+                </div>
 
+                <button id="set-grid">Set Grid</button>
+            </div>
+
+            <button id="clear-grid">Clear Grid</button>
+            <button id="toggle-color" class="black">Change Color (Current: Black)</button>
+
+        </div>
+
+        <div id="square-container"></div>
+    </div>
 </body>
 
 </html>
