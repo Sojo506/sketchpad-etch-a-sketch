@@ -1,29 +1,54 @@
-# Etch‑a‑Sketch Project
+# Sketchpad - Etch-a-Sketch
+
+> Practice project for JavaScript and Flexbox from **The Odin Project**  
+> Created by **Sojo506**
+
+---
 
 ## Description
 
-This is a browser-based Etch‑a‑Sketch / sketchpad toy built as part of [The Odin Project - Foundations](https://www.theodinproject.com/lessons/foundations-etch-a-sketch).
+This is an **interactive Sketchpad** that allows you to draw on a grid of squares using your mouse.  
+It focuses on:
 
-It allows you to create a customizable grid of squares that change color when hovered over, mimicking a digital sketchpad. The goal of this project is to practice:
+- Dynamically creating a grid using JavaScript.
+- Using **Flexbox** to organize the squares in rows and columns.
+- Changing the color of squares on mouse hover.
+- Adjusting the grid size based on user input.
+- Implementing both a **black color mode** and a **random RGB mode** with progressive darkening.
 
-- DOM manipulation  
-- Event handling  
-- Dynamic styling with CSS  
-- User interaction via prompts and buttons  
+> ⚠️ This is a project from **The Odin Project**, used to practice JavaScript and Flexbox fundamentals.
+
+---
+
+## Demo
+
+![Project Demo](demo.gif)  
+*(Optional: add a screenshot or GIF of your project)*
+
+---
 
 ## Features
 
-- **Dynamic Grid Creation**: Generate an N×N grid of square divs programmatically with JavaScript.  
-- **Hover Effect**: Squares change color when hovered to create a "drawing" effect.  
-- **Adjustable Grid Size**: A button lets the user input a new grid size (number of squares per side). The old grid is cleared and a new one is created.  
-- **Grid Size Limits**: Prevents extreme grid sizes (e.g., max 100×100) to maintain performance.  
+- Default 16x16 grid.
+- **Clear Grid** button: resets the grid to 16x16.
+- **Set Grid** button: allows you to enter a number of squares per side (max 100).
+- **Toggle Mode** button: switches between:
+  - **Black Mode**: draws in black.
+  - **RGB Mode**: draws random colors and progressively darkens each square.
+- Colored squares remain intact when switching modes.
 
-### Optional / Extra Features
+---
 
-- **Random Colors**: Each square can change to a random color when hovered.  
-- **Progressive Darkening**: Squares can gradually darken with each hover until fully colored or black.  
+## Technologies Used
 
-## Installation / Usage
+- HTML5
+- CSS3 (Flexbox)
+- JavaScript (Vanilla JS)
+- Git & GitHub for version control
+
+---
+
+## Installation
 
 1. **Clone the repository**  
 ```bash
@@ -36,9 +61,12 @@ git clone <your-repo-url>
 - Or serve via a local server (optional).
 
 3. **Use the App**
-
+   
+- Open the page in a browser.
 - Hover over the squares to draw.
-- Click the button to change the grid size.
+- Change color mode using the Toggle Mode button.
+- Change the grid size using Set Grid (max 100).
+- Clear the grid using Clear Grid.
 
 ## Project Structure
 
