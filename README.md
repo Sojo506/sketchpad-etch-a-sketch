@@ -41,10 +41,13 @@ git clone <your-repo-url>
 - Click the button to change the grid size.
 
 ## Project Structure
+
+```
 /etch-a-sketch/
 ├── index.html     # Main HTML file
 ├── styles.css     # Styles for grid, squares, and hover effects
 └── script.js      # Logic for generating grid, handling events, and user prompts
+```
 
 ## Credits
 
